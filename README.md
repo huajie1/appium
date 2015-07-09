@@ -1,3 +1,4 @@
 # appium
 appium基础学习工程  
-findElementByUIAutomator/findElementByXpath使用简单demo
+appium中findElementByUIAutomator的使用
+appium中Xpath的使用
