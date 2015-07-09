@@ -47,7 +47,7 @@ public class LocateMethodsTest {
     @Test
     public void byAndroidUIAutomatorTest(){
         driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"com.ss.android.article.news:id/category_text\").text(\"热点\")").click();//进入热点
-        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"com.ss.android.article.news:id/view_pager\")).scrollIntoView(new UiSelector().resourceId(\"com.ss.android.article.news:id/title\").text(\"央行已向证金公司提供充足再贷款\"))").click();
+        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"com.ss.android.article.news:id/view_pager\")).scrollIntoView(new UiSelector().resourceId(\"com.ss.android.article.news:id/title\").text(\"维稳股市只要做到九个字\"))").click();
 	    driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"com.ss.android.article.news:id/action_view_comment\")").click();//点击评论
 	    WebElement hotTopic = driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"com.ss.android.article.news:id/section_text\").text(\"热门评论\")");
 	    hotTopic.isDisplayed();//验证界面上有热门评论模块即为成功
