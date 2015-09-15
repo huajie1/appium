@@ -31,7 +31,7 @@ public class HybridAppTest {
 		capa.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
 		capa.setCapability("appPackage", "com.pingan.wetalk");
 		capa.setCapability("appActivity","com.pingan.wetalk.activity.SplashActivity");
-		driver = new AndroidDriver(new URL("http://localhost:4725/wd/hub"),capa);
+		driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"),capa);
 	    driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         
 		if(platform_version<4.4){

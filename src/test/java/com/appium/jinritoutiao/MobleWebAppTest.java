@@ -24,7 +24,7 @@ public class MobleWebAppTest {
 		capa.setCapability(MobileCapabilityType.DEVICE_NAME, "MI4");
 		capa.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 		capa.setCapability(MobileCapabilityType.PLATFORM_VERSION, "4.4");
-		driver = new AndroidDriver(new URL("http://localhost:4725/wd/hub"),capa);
+		driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"),capa);
 	    driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         
 	}
@@ -65,6 +65,7 @@ public class MobleWebAppTest {
         	Thread.sleep(5000);
         	driver.navigate().back();
         }
+            Thread.sleep(3000);
     	
     	
     }
